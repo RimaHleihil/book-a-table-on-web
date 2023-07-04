@@ -1,0 +1,15 @@
+@import url('https://fonts.google.com/specimen/Markazi+Text');
+
+body {
+  margin: 0;
+  font-family: 'Markazi',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12pt;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

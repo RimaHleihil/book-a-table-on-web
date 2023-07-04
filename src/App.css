@@ -1,0 +1,200 @@
+/* Overall selectors */
+ul {
+  list-style-type: none;
+}
+
+section {
+  padding: 10rem 0;
+  justify-content: center;
+}
+
+button {
+  width: 10rem;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  border: none;
+  background-color:#d3b105;
+  color: #495E57;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.button-sec {
+  width: 10rem;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  border: none;
+  background-color:#495E57;
+  color: #d3b105;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color:#495E57;
+}
+
+a:hover {
+  color: #d3b105;
+}
+
+/* Navigation */
+nav li {
+  font-weight: 500;
+}
+
+/* Main */
+.title {
+  font-size: 48pt;
+  font-weight: 700;
+  color:#d3b105;
+  text-decoration: underline;
+}
+
+.hero {
+  height: 40rem;
+  background-color: #495E57;
+  color:white;
+  margin-bottom: 25rem;
+}
+
+.hero img {
+  max-width: 30rem;
+  margin: 1rem;
+  border-radius: 5rem;
+}
+
+.hero button {
+  background-color:#d3b105;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem;
+  color: #495E57;
+}
+
+.highlights img {
+  width: 15rem;
+  height: 10rem;
+}
+
+.highlights h6 {
+  margin-top: 5rem;
+}
+
+.special-item {
+  justify-content: center;
+  max-width: 25rem;
+  background-color: #495E57;
+  padding:2rem;
+  color: white;
+  border-radius: 2rem;
+  padding: 5rem 2rem;
+  margin-left: 1rem;
+}
+
+.special-item img {
+  border-radius: 100rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.special-item p {
+  margin-bottom: 6rem;
+}
+
+.special-item h6 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h6 span {
+  margin-left: 2.2rem;
+  color: #ee9972;
+  font-size: 1rem;
+}
+
+.testimonial {
+  background-color: #495E57;
+  color: white;
+  padding: 2rem 1rem;
+  margin: 0.5rem 0;
+}
+
+/* Testimonals section */
+
+.testimonial h6 {
+  color: #d3b105;
+}
+
+.card button {
+  margin: 5rem 0;
+  background-color: #d3b105;
+  color:#495E57;
+}
+
+.card img {
+  margin: 1rem;
+  border-radius: 10%;
+}
+
+.card h6 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* About us Section */
+
+.about {
+  background-color: #d3b105;
+  padding: 15rem 1rem;
+  font-size: 1rem;
+}
+
+.about img {
+  width: 40rem;
+}
+
+.about h2 {
+  color: #495E57;
+  font-size: 48pt;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.about h5 {
+  font-weight: 700;
+}
+
+/* footer */
+
+footer {
+  padding: 15rem 4rem;
+  background-color: #d3b105;
+  color: white;
+}
+
+footer h6 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+footer li, footer a {
+  color: white;
+  font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 800px) {
+  .hero img {
+    margin-bottom: 100rem;
+  }
+}
